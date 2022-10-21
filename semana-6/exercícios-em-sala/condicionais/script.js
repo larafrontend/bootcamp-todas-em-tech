@@ -154,7 +154,14 @@
     let primeiroNumero = Number(prompt("Digite o primeiro número!"));
     let segundoNumero = Number(prompt("Digite o segundo número!"));
     let soma = 0;
+    let i = primeiroNumero
 
-    for(let i = primeiroNumero; i <= segundoNumero; i++) {
+    /* for(let i = primeiroNumero; i <= segundoNumero; i++) {
+        alert(soma += i);
+    }
+    */
+
+    while(i && i <= segundoNumero) {
+        i++;
         alert(soma += i);
     }
