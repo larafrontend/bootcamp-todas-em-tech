@@ -138,30 +138,4 @@
         alert("Você está de recuperação!")
     } else if (mediaFinal < 5) {
         alert("Que pena, você foi reprovado.")
-    }
-
-/*
- 5. Crie um algoritmo que receba dois números e some todos os números
-    começados no primeiro e terminados no segundo
-
-    Faça duas versões deste exercício: usando for e usando while
-
-    Exemplo:
-        se os números informados forem 2 e 7, seu programa deve retornar 27,
-        pois 2 + 3 + 4 + 5 + 6 + 7 = 27
-*/
-
-    let primeiroNumero = Number(prompt("Digite o primeiro número!"));
-    let segundoNumero = Number(prompt("Digite o segundo número!"));
-    let soma = 0;
-    let i = primeiroNumero
-
-    /* for(let i = primeiroNumero; i <= segundoNumero; i++) {
-        alert(soma += i);
-    }
-    */
-
-    while(i && i <= segundoNumero) {
-        i++;
-        alert(soma += i);
-    }
+    }   
