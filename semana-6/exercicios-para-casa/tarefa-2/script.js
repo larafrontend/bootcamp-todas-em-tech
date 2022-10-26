@@ -14,8 +14,10 @@
 
     let descontoFinal = preco * valorDesconto;
 
-    let valorFinal = parseFloat(alert(`O valor do produto escolhido ficou R$  ${preco - descontoFinal}`));
+    let valorFinal = preco - descontoFinal;
 
-    let economia = console.log(preco - valorFinal)
+    alert (`O produto ficou com um valor final de R$ ${valorFinal}, e você economizou ${descontoFinal}.`)
+
+    
 
 
